@@ -4,7 +4,7 @@ def projectFolderName = "${PROJECT_NAME}"
 
 // Variables
 def siteRepoName = "fime-static-page"
-def siteRepoUrl = "ssh://git@github.com:elgrandante/" + siteRepoName + ".git"
+def siteRepoUrl = "ssh://jenkins@gerrit:29418/${PROJECT_NAME}/" + siteRepoName
 def fimeBucketName = "fime-dante-bucket"
 
 // Views
