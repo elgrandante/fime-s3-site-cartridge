@@ -49,7 +49,6 @@ fimePullCode.with{
      git{
        remote{
          url(siteRepoUrl)
-            url(siteRepoUrl)
          credentials("adop-jenkins-master")
        }
        branch("*/master")
