@@ -45,14 +45,6 @@ fimePullCode.with{
     sshAgent("adop-jenkins-master")
   }
   label("docker")
-   triggers {
-   gerrit {
-     events {
-       refUpdated()
-     }
-     project("${PROJECT_NAME}/" + siteRepoName, 'master')
-    }
-  }
   scm{
      git{
        remote{
